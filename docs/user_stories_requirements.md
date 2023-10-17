@@ -1,6 +1,6 @@
 ## User Stories
 
-- [ ] As a potential client, I want to be able to easily find your homepage and quickly send a message for an inquiry **(HTML, JS)**
+- **[ ] As a potential client, I want to be able to easily find your homepage and quickly send a message for an inquiry **(HTML, JS)****
 - [ ] As a potential client, I want to easily see all your services offered, including things like training, workshops, etc. **(HTML, JS)**
 - [ ] As a potential client, I like receiving free goodies, please showcase some of these if offered (get their attention) **(HTML, JS)**
 - [ ] As a potential client, I want to be able to see promotional offers or seasonal offers **(HTML, JS)**
