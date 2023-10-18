@@ -19,29 +19,42 @@
     <div class="main">
 
         <div class="bigContainer">
-            <form action="javascript:void(0);" id="myForm">
 
                 <div class="leftSide">
-                
+
+                    <form action="javascript:void(0);" id="myForm">
+                        <div class="fieldInputs">
+                            <label for="nameField"> Name: </label>
+                            <input type="text" id="nameField" placeholder="Please enter name..."/>
+                            <label for="emailField"> Email: </label>
+                            <input type="text" id="emailField" placeholder="Please enter email..."/>
+                            <label for="phoneField"> Phone #: </label>
+                            <input type="text" id="phoneField" placeholder="Please enter phone..."/>
+                        </div>
+
+                        <div class="selection">
+                            <h3> What do you want to tell us? </h3>
+                            <select>
+                                <option value="option1">
+                                    Compare quotes
+                                </option>
+                                <option value="option2">
+                                    Provide feedback
+                                </option>
+                                <option value="option3">
+                                    Compare with competitors
+                                </option>
+                            </select>
+                        </div>
+
+                    <button type="submit" value="Submit"> Submit </button>
+                    </form>
+
                 </div>
 
                 <div class="rightSide">
-                    <h3> What do you want to tell us? </h3>
-                    <select>
-                        <option value="option1">
-                            Compare quotes
-                        </option>
-                        <option value="option2">
-                            Provide feedback
-                        </option>
-                        <option value="option3">
-                            Compare with competitors
-                        </option>
-                    </select>
-                    <button type="submit" value="Submit"> Submit </button>
+                    <h3> Testimonials </h3>
                 </div>
-
-            </form>
     
         </div>
 

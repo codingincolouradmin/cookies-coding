@@ -43,13 +43,45 @@ header {
 .bigContainer {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 90%;
+    height: 100%;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    height: 100%;
+}
+
+.fieldInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
 }
 
 .rightSide {
     display: flex;
     flex-direction: column;
     gap: 15%;
+    width: 30%;
+    height: 100%;
 }
 
 .faq {
