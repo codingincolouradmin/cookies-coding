@@ -41,15 +41,24 @@ header {
 }
 
 .bigContainer {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
 
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
 }
 
 .faq {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 30px;
     border: 1px solid black;
     border-radius: 5px;
+    width: 10%;
 }
 
 .faqTitle {
