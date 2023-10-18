@@ -1,0 +1,128 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/** Header Styles */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #efeef0;
+    padding: 15px;
+    max-height: 15%
+}
+
+.siteLogo {
+    justify-content: left;
+    padding-left: 10%;
+}
+
+.navigationLinks {
+    padding-right: 35%;
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+}
+
+/** Body */
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: #D4DFF1;
+    height: 80%;
+}
+
+.bigContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+}
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.fieldInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10%;
+}
+
+.faqTitle {
+    align-self: center;
+}
+
+.questionsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10%;
+    height: 95%;
+}
+
+.questionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+/** Footer Styles */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #efeef0;
+    padding: 15px;
+    max-height: 15%
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding-left: 15%;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
