@@ -52,36 +52,30 @@ header {
 .leftSide {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
 
 #myForm {
     display: flex;
     flex-direction: column;
     gap: 10%;
-    height: 100%;
 }
 
 .fieldInputs {
     display: flex;
     flex-direction: column;
-    gap: 10%;
+    gap: 20px;
 }
 
 .selection {
     display: flex;
     flex-direction: column;
-    gap: 10%;
+    gap: 20%;
 }
 
 .rightSide {
     display: flex;
     flex-direction: column;
-    gap: 15%;
-    width: 30%;
-    height: 100%;
+    gap: 20%;
 }
 
 .faq {
