@@ -1,12 +1,21 @@
+:root{
+    --background-color:#D4DFF1;
+    --bc:#efeef0;
+
+}
+.dark-theme{
+    --background-color:#fb1414;
+    --bc : #090808;
+}
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #D4DFF1;
+    background-color:var(--background-color);
 }
 header{
     display: grid;
     grid-template-columns: 30% 70%;
-    background-color: #efeef0;
+    background-color:var(--bc);
     padding: 10px;
     grid-template-rows: 50px;
     
@@ -51,12 +60,26 @@ nav ul li a{
 }
 .service{
     flex: 1;
-    border: 1px solid black;
+    
     border-radius: 5px;
     min-width: 150px;
-    height: 150px;
+    height: 250px;
     box-sizing: border-box;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+#imged{
+    border-radius: 20px;
+}
+#button{
+    padding: 10px;
+    padding-right: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
 }
 .testimonials{
     margin: 20px;

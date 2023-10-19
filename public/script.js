@@ -22,3 +22,9 @@ function changeImg(){
 
 
 window.onload=changeImg;
+
+const b = document.getElementById("button");
+b.addEventListener("click",function(){
+    document.body.classList.toggle("dark-theme");
+    
+})
