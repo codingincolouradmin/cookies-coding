@@ -15,7 +15,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #efeef0;
+    background-color: #322e35;
     padding-left: 10px;
     padding-right: 10px;
     max-height: 15%
@@ -25,6 +25,7 @@ header {
     justify-content: left;
     padding-left: 10%;
     padding-top: 10px;
+    color: white;
 }
 
 .navigationLinks {
@@ -35,10 +36,11 @@ header {
 }
 .navigationLinks span {
     padding: 10px;
+    color: white;
 }
 
 .navigationLinks span:hover {
-    background-color: lightgray;
+    background-color: #323842;
     color: white;
     cursor: pointer;
 }
