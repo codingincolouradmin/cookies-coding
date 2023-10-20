@@ -36,10 +36,13 @@ header {
 .navigationLinks span {
     padding: 10px;
 }
-.navigationLinks span a{
-    text-decoration: none;
-    color: black;
+
+.navigationLinks span:hover {
+    background-color: lightgray;
+    color: white;
+    cursor: pointer;
 }
+
 
 /** Body */
 .main {
