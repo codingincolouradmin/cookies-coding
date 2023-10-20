@@ -16,13 +16,15 @@ header {
     flex-direction: row;
     justify-content: space-between;
     background-color: #efeef0;
-    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     max-height: 15%
 }
 
 .siteLogo {
     justify-content: left;
     padding-left: 10%;
+    padding-top: 10px;
 }
 
 .navigationLinks {
@@ -30,6 +32,9 @@ header {
     display: flex;
     flex-direction: row;
     gap: 25%;
+}
+.navigationLinks span {
+    padding: 10px;
 }
 .navigationLinks span a{
     text-decoration: none;
@@ -58,14 +63,13 @@ header {
     
     flex: 1;
     margin-left: 100px;
-    
 }
 
 
 #myForm {
     display: flex;
     flex-direction: row;
-    
+    flex: 1;
     gap: 10%;
     background-color: #efeef0;
     justify-content: space-around;
@@ -74,9 +78,6 @@ header {
     margin-right: 45px;
     margin-left: 45px;
     border: 1px black solid;
-    
-    
-    
 }
 
 .fieldInputs {
@@ -94,7 +95,6 @@ header {
 
 }
     
-
 .rightSide {
     display: flex;
     flex-direction: column;
