@@ -1,3 +1,23 @@
+:root {
+    --header-background-color: #efeef0;
+    --nav-hover-color: lightgray;
+    --nav-text-color: black;
+    --main-background-color: #D4DFF1;
+}
+
+.light-theme {
+    --header-background-color: #efeef0;
+    --nav-hover-color: lightgray;
+    --nav-text-color: black;
+    --main-background-color: #D4DFF1;
+}
+
+.dark-theme {
+    --header-background-color: #efeef0;
+    --nav-hover-color: lightgray;
+    --nav-text-color: black;
+    --main-background-color: #131517;
+}
 
 html {
     height: 100%;
@@ -15,7 +35,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #322e35;
+    background-color: var(--header-background-color);
     padding-left: 10px;
     padding-right: 10px;
     max-height: 15%
@@ -25,7 +45,6 @@ header {
     justify-content: left;
     padding-left: 10%;
     padding-top: 10px;
-    color: white;
 }
 
 .navigationLinks {
@@ -36,11 +55,11 @@ header {
 }
 .navigationLinks span {
     padding: 10px;
-    color: white;
+    color: var(--nav-text-color);
 }
 
 .navigationLinks span:hover {
-    background-color: #323842;
+    background-color: var(--nav-hover-color);
     color: white;
     cursor: pointer;
 }
@@ -51,7 +70,7 @@ header {
     display: flex;
     flex-direction: row;
     padding: 15px;
-    background-color: #181b20;
+    background-color: var(--main-background-color);
     height: 80%;
 }
 
