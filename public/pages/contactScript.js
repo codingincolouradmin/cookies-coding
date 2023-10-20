@@ -21,9 +21,16 @@ const handleClick = (element) => {
 
 
 // Event listener for navigation links
-const spanNavLink = document.querySelectorAll('.spanLink')
+const spanNavLink = document.querySelectorAll('.spanLink');
 spanNavLink.forEach(function(span) {
     span.addEventListener("click", handleClick)
+})
+
+const themeButton = document.getElementById('changeTheme');
+themeButton.addEventListener("click", function(event) {
+    event.preventDefault(); // May not be necessary
+    let linkedStylesheet = document.getElementById('styles');
+    linkedStylesheet.setAttribute('href', './contactStylesDark.css')
 })
 
 
