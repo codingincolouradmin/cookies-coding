@@ -26,11 +26,19 @@ spanNavLink.forEach(function(span) {
     span.addEventListener("click", handleClick)
 })
 
-const themeButton = document.getElementById('changeTheme');
-themeButton.addEventListener("click", function(event) {
+const themeDropdown = document.getElementById('changeThemeDropdown');
+themeDropdown.addEventListener("change", function(event) {
     event.preventDefault(); // May not be necessary
-    let linkedStylesheet = document.getElementById('styles');
-    linkedStylesheet.setAttribute('href', './contactStylesDark.css')
+    const selectedOption = themeDropdown.options[themeDropdown.selectedIndex].innerText;
+    if (selectedOption === "Dark") {
+        let linkedStylesheet = document.getElementById('styles');
+        linkedStylesheet.setAttribute('href', './contactStylesDark.css')
+    } else if (selectedOption == "Light") {
+        let linkedStylesheet = document.getElementById('styles');
+    linkedStylesheet.setAttribute('href', './contactStylesLight.css')
+    } else {
+        console.log("nothing");
+    }
 })
 
 
