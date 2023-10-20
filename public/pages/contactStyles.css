@@ -1,3 +1,23 @@
+:root {
+    --header-background-color: #efeef0;
+    --nav-hover-color: lightgray;
+    --nav-text-color: black;
+    --main-background-color: #D4DFF1;
+}
+
+.light-theme {
+    --header-background-color: #efeef0;
+    --nav-hover-color: lightgray;
+    --nav-text-color: black;
+    --main-background-color: #D4DFF1;
+}
+
+.dark-theme {
+    --header-background-color: #efeef0;
+    --nav-hover-color: lightgray;
+    --nav-text-color: black;
+    --main-background-color: #131517;
+}
 
 html {
     height: 100%;
@@ -15,14 +35,16 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #efeef0;
-    padding: 15px;
+    background-color: var(--header-background-color);
+    padding-left: 10px;
+    padding-right: 10px;
     max-height: 15%
 }
 
 .siteLogo {
     justify-content: left;
     padding-left: 10%;
+    padding-top: 10px;
 }
 
 .navigationLinks {
@@ -31,17 +53,24 @@ header {
     flex-direction: row;
     gap: 25%;
 }
-.navigationLinks span a{
-    text-decoration: none;
-    color: black;
+.navigationLinks span {
+    padding: 10px;
+    color: var(--nav-text-color);
 }
+
+.navigationLinks span:hover {
+    background-color: var(--nav-hover-color);
+    color: white;
+    cursor: pointer;
+}
+
 
 /** Body */
 .main {
     display: flex;
     flex-direction: row;
     padding: 15px;
-    background-color: #D4DFF1;
+    background-color: var(--main-background-color);
     height: 80%;
 }
 
@@ -58,14 +87,13 @@ header {
     
     flex: 1;
     margin-left: 100px;
-    
 }
 
 
 #myForm {
     display: flex;
     flex-direction: row;
-    
+    flex: 1;
     gap: 10%;
     background-color: #efeef0;
     justify-content: space-around;
@@ -74,9 +102,6 @@ header {
     margin-right: 45px;
     margin-left: 45px;
     border: 1px black solid;
-    
-    
-    
 }
 
 .fieldInputs {
@@ -94,7 +119,6 @@ header {
 
 }
     
-
 .rightSide {
     display: flex;
     flex-direction: column;

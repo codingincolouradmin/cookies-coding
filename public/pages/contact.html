@@ -3,17 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./contactStyles.css">
+        <link id="styles" rel="stylesheet" href="./contactStyles.css">
     </head>
 
     <header class="header">
         <span class="siteLogo"> Logo </span>
         <div class="navigationLinks">
-            <span><a href="../index.html"> Home </a></span>
-            <span> Portfolio </span>
-            <span> Contact </span>
-            <span> About </span>
+            <span class="spanLink"> Home </span>
+            <span class="spanLink"> Portfolio </span>
+            <span class="spanLink"> Contact </span>
+            <span class="spanLink"> About </span>
         </div>
+        <select id="changeThemeDropdown">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </select>
     </header>
     
     <div class="main">
@@ -84,7 +88,7 @@
 
     <footer class="footer">
         <div class="footerLinks">
-            <span> Fb </span>
+            <img src="../icons/youtube.svg" width="30px" height="50px"/>
             <span> X </span>
             <span> YouTube </span>
         </div>
@@ -98,5 +102,5 @@
             </div>
         </div>
     </footer>
-
+    <script src="./contactScript.js"></script>
 </html>
