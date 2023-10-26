@@ -3,7 +3,7 @@ const handleClick = (element) => {
     const text = element.target.outerText;
     switch (text) {
         case 'Home':
-            window.location.href = '../../'
+            window.location.href = '../../index.html'
             break;
         case 'Portfolio':
             console.log('portfolio page');
