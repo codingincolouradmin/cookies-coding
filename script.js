@@ -2,9 +2,9 @@ var images = [];
 var time = 3000;
 var i = 0;
 
-images[0] = "img/elon.png";
-images[1] = "img/billy.png";
-images[2] = "img/zucc.png";
+images[0] = "public/img/elon.png";
+images[1] = "public/img/billy.png";
+images[2] = "public/img/zucc.png";
 
 // testimonials slider
 function changeImg() {
